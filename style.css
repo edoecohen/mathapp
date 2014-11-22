@@ -1,0 +1,85 @@
+body {
+	background-image: url("images/background.jpg");
+
+}
+
+#container {
+	margin: 50px auto;
+	background: rgba(0, 0, 0, 0.9);
+	border: 3px solid white;
+	border-radius: 5px;
+	width: 50%;
+	color: white;
+	font-family: 'Cabin Sketch', cursive;
+
+}
+
+#container h1 {
+	text-align: center;
+	font-size: 4em;
+	margin-bottom: 25px;
+}
+
+#container form {
+	text-align: center;
+	font-size: 2em;
+}
+
+#container form input {
+	font-size: 25px;
+	margin-left: 7px;
+	margin-bottom: 15px;
+	padding-left: 7px;
+	font-family: 'Cabin Sketch', cursive;
+
+}
+
+#container ul {
+	text-align: center;
+}
+
+#container ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+.button {
+	padding: 4px 15px;
+	margin-right: 13px;
+	font-size: 2em;
+	border-radius: 3px;
+	background: rgba(38, 73, 252, 1);
+	cursor: pointer;
+}
+
+.button:hover {
+	background: #152994;
+}
+
+.button.active {
+	background: #001BA9;
+}
+
+.resultsCon {
+	text-align: center;
+	font-size: 2.5em;
+	margin-top: 30px;
+	border-top: 1px dashed #FFF;
+	height: 100px;
+}
+
+.resultsLine, .error1, .error2 {
+	display: none;
+	margin-top: 27px;
+}
+
+.error1, .error2 {
+	color: red;
+}
+
+/* RESPONSIVE */
+@media (max-width: 991px) { 
+	#container { width: 75%;}
+}
+
+
